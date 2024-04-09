@@ -17,3 +17,22 @@
 .box.wider {
     flex-grow: 1;
 }
+
+.flex-btn {
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    left: 30px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    position: absolute;
+    transition: left 2s, background-color 2s;
+   
+}
+
+.flex-btn:hover {
+    background-color: blueviolet;
+    transition-timing-function: ease-in-out;
+    left: 80px;
+    
+}
